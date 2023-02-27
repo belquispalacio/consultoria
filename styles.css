@@ -1,0 +1,44 @@
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: rgb(247, 244, 247);
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+#accordionOne, #accordionTwo, #accordion3, #card1, #quote1 {
+  padding: 10px;
+}
+
+#roundedimg {
+  border-radius: 10%;
+  box-shadow: rgb(182, 182, 182);
+}
+
+section {
+  margin-top: 5em;
+}
+
+h3 {
+  background-color: #c290c057;
+  padding: 1em;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: black;
+  --bs-btn-border-color:  #c290c0;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg:  #c290c0;
+  --bs-btn-hover-border-color:  #c290c0;
+  --bs-btn-focus-shadow-rgb: 108,117,125;
+  --bs-btn-active-color: black;
+  --bs-btn-active-bg:  #c290c0;
+  --bs-btn-active-border-color:  #c290c0;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color:  #c290c0;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color:  #c290c0;
+  --bs-gradient: none;
+}
